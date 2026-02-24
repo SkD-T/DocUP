@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+  /* Fundos */
+  --Background: #121212;         /* fundo principal da página */
+  --BackgroundSec: #1e1e1e;     /* fundo de seções, cards, painéis */
+
+  /* Texto */
+  --TextColor: #e0e0e0;         /* texto principal */
+  --TextColorSec: #b0b0b0;      /* texto secundário, legendas, descrições */
+
+  /* Destaques */
+  --Destaques: #00bcd4;         /* cores de botões, links, elementos importantes */
+  --DestaquesSec: #008ba3;      /* hover, alertas secundários, ícones */
+
+  /* Bordas e separadores */
+  --BorderColor: #2c2c2c;       /* bordas de cards, inputs, divs */
+  --BorderHighlight: #00bcd4;   /* bordas de elementos ativos/destaques */
+
+  /* Sombras */
+  --ShadowColor: rgba(0,0,0,0.5);  /* sombras de cards, modais, botões */
+
+  /* Estados de hover / interação */
+  --HoverBg: #1a1a1a;           /* fundo de botões ou cards no hover */
+  --HoverText: #00e5ff;         /* texto de botões ou elementos no hover */
+
+  /* Acentos / detalhes */
+  --Accent: #ff4081;            /* pequenos detalhes decorativos, ícones */
+}
+
+body{
+    background-color: var(--Background);
+    color: var(--TextColor);
+}
